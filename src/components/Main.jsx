@@ -1,11 +1,11 @@
 import React from "react";
-import avatar1 from "../../public/img/avatar1.jpg"
-import avatar2 from "../../public/img/avatar2.jpg";
-import tripadvisor from "../../public/img/tripadvisor.svg";
-import gercetur from "../../public/img/gercetur.webp";
-import lincencia from "../../public/img/licencia-funcionamiento.webp";
-import ruc from "../../public/img/ficha-ruc.webp";
-import aeropuerto from "../../public/img/aeropuerto.jpg"
+import avatar1 from "../img/avatar1.jpg"
+import avatar2 from "../img/avatar2.jpg";
+import tripadvisor from "../img/tripadvisor.svg";
+import gercetur from "../img/gercetur.webp";
+import lincencia from "../img/licencia-funcionamiento.webp";
+import ruc from "../img/ficha-ruc.webp";
+import aeropuerto from "../img/aeropuerto.jpg"
 
 
 const Main = () => {
@@ -15,7 +15,7 @@ const Main = () => {
         <h2 className="font-bold text-center text-3xl ">Itinerario</h2>
         <article>
           <div className="w-full flex bg-white overflow-hidden rounded-xl shadow-neutral-200 shadow-2xl">
-            <div className="bg-[url(../../public/img/aeropuerto.jpg)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/aeropuerto.jpg)] w-4/12 bg-cover bg-center"></div>
             <div className="w-8/12 px-5 py-10 space-y-5">
               <h2 className="font-semibold text-xl">
                 DIA 1: RECOJO DEL AEROPUERTO{" "}
@@ -47,12 +47,12 @@ const Main = () => {
                 paisajes. El tour finalizará aproximadamente a las 2:00 p. m.{" "}
               </p>
             </div>
-            <div className="bg-[url(../../public/img/lima.jpg)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/lima.jpg)] w-4/12 bg-cover bg-center"></div>
           </div>
         </article>
         <article>
           <div className="w-full flex bg-white overflow-hidden rounded-xl shadow-neutral-200 shadow-2xl">
-            <div className="bg-[url(../../public/img/huacachina.jpg)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/huacachina.jpg)] w-4/12 bg-cover bg-center"></div>
             <div className="w-8/12 px-5 py-10 space-y-5">
               <h2 className="font-semibold text-xl">
                 DIA 3: PARACAS – HUACACHINA FULL DAY
@@ -93,12 +93,12 @@ const Main = () => {
                 Qoricancha. Nuestro tour culminará a las 6:30 pm.
               </p>
             </div>
-            <div className="bg-[url(../../public/img/city-tour-cusco.jpg)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/city-tour-cusco.jpg)] w-4/12 bg-cover bg-center"></div>
           </div>
         </article>
         <article>
           <div className="w-full flex bg-white overflow-hidden rounded-xl shadow-neutral-200 shadow-2xl">
-            <div className="bg-[url(../../public/img/maras-moray.webp)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/maras-moray.webp)] w-4/12 bg-cover bg-center"></div>
             <div className="w-8/12 px-5 py-10 space-y-5">
               <h2 className="font-semibold text-xl">
                 DIA 5: VALLE SAGRADO VIP + CONEXIÓN
@@ -136,12 +136,12 @@ const Main = () => {
                 llegando aproximadamente a las 20:00 h.
               </p>
             </div>
-            <div className="bg-[url(../../public/img/machu-picchu.webp)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/machu-picchu.webp)] w-4/12 bg-cover bg-center"></div>
           </div>
         </article>
         <article>
           <div className="w-full flex bg-white overflow-hidden rounded-xl shadow-neutral-200 shadow-2xl">
-            <div className="bg-[url(../../public/img/vinicunca.webp)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/vinicunca.webp)] w-4/12 bg-cover bg-center"></div>
             <div className="w-8/12 px-5 py-10 space-y-5">
               <h2 className="font-semibold text-xl">
                 DIA 7: MONTAÑA DE COLORES
@@ -180,12 +180,12 @@ const Main = () => {
                 aproximadamente a las 18:00 h.
               </p>
             </div>
-            <div className="bg-[url(../../public/img/humantay.webp)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/humantay.webp)] w-4/12 bg-cover bg-center"></div>
           </div>
         </article>
         <article>
           <div className="w-full flex bg-white overflow-hidden rounded-xl shadow-neutral-200 shadow-2xl">
-            <div className="bg-[url(../../public/img/traslado.webp)] w-4/12 bg-cover bg-center"></div>
+            <div className="bg-[url(../img/traslado.webp)] w-4/12 bg-cover bg-center"></div>
             <div className="w-8/12 px-5 py-10 space-y-5">
               <h2 className="font-semibold text-xl">
                 DIA 9: TRASLADO AL AEROPUERTO + TOUR FOTOGRAFICO

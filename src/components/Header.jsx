@@ -32,7 +32,7 @@ const Header = () => {
           </div>
         </navbar>
       </div>
-      <section id="inicio" className="bg-[url(../../public/img/bannermapi.webp)] w-full h-[750px]  bg-cover bg-center flex justify-center items-center flex-col  before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-b before:from-black before:to-black/10 before:opacity-30 before:h-full">
+      <section id="inicio" className="bg-[url(../img/bannermapi.webp)] w-full h-[750px]  bg-cover bg-center flex justify-center items-center flex-col  before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-b before:from-black before:to-black/10 before:opacity-30 before:h-full">
         <div className="max-w-screen-lg space-y-10 relative">
           <h1 className="text-white font-bold text-5xl text-center">
             Peru MáDesgico{" "}
